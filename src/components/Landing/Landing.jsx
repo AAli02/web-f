@@ -23,7 +23,14 @@ function Landing() {
               <p className='banner__info'>Empowering businesses with innovative web solutions 
               through expert development and design services.
               </p>
-            <input type="Email" />
+
+              <div className='input__wrapper'>
+                <div className='btn__wrapper'>
+                  <button className='mail__btn'>Join!</button>
+                </div>
+                  <input className='form__mail' type="Email" placeholder='Email' />
+              </div>
+              
             </div>
 
           </div>
